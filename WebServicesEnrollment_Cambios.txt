@@ -1,0 +1,55 @@
+WebServicesEnrollment, modificaciones:
+
+Cargo.cs:
+1 namespace WebServicesEnrollment
+2 {
+3   public class Cargos
+4   {
+5       public string CargoId { get; set; }
+6       public string Descripcion { get; set; }
+7       public string Prefijo { get; set; }
+8       public double Monto { get; set; }
+9       public bool IsGeneraMora { get; set; }
+10      public int PorcentajeMora { get; set; }
+11  }
+12 }
+
+CarreraTecnica.cs:
+1 namespace WebServicesEnrollment.Models
+2 {
+3    public class CarreraTecnica
+4    {
+5        public string CarreraId { get; set; }
+6        public string Carrera { get; set; }
+7    }
+8 }
+
+EnrollmentService.cs:
+
+14	//private List<Aspirantes> aspirantes = new List<Aspirantes>();
+       //private List<CarreraTecnica> carreras = new List<CarreraTecnica>();
+16     //private List<Cargos> cargos = new List<Cargos>();
+
+
+20	/*aspirantes.Add(new Aspirantes() {NoExpediente = "EXP-2022001", Apellidos = "Perez", Nombres ="Luis", Email ="lperez@gmail.com", Direccion = "Guatemala", Telefono = "24427787"});
+           aspirantes.Add(new Aspirantes() {NoExpediente = "EXP-2022002", Apellidos = "Mancilla", Nombres ="Roberto", Email ="rmancilla@gmail.com", Direccion = "Guatemala", Telefono = "24428777"});
+           aspirantes.Add(new Aspirantes() {NoExpediente = "EXP-2022003", Apellidos = "Lemus", Nombres ="Raul", Email ="rlemus@gmail.com", Direccion = "Guatemala", Telefono = "24429778"});
+           carreras.Add(new CarreraTecnica() {CarreraId = "1", Carrera = "Full Stack DOTNET Core"});
+           carreras.Add(new CarreraTecnica() {CarreraId = "2", Carrera = "Full Stack JAVA EE"});
+           carreras.Add(new CarreraTecnica() {CarreraId = "3", Carrera = "Desarrollo Movil con Android"});
+           cargos.Add(new Cargos() {CargoId = "1", Descripcion = "Pago por Inscripcion", Prefijo = "INSC", Monto = 1200.00, IsGeneraMora = false, PorcentajeMora = 0});
+           cargos.Add(new Cargos() {CargoId = "2", Descripcion = "Pago Carné", Prefijo = "CARNE", Monto = 30.00, IsGeneraMora = false, PorcentajeMora = 0});
+28         cargos.Add(new Cargos() {CargoId = "3", Descripcion = "Pago académico mensual", Prefijo = "PAGM", Monto = 800.00, IsGeneraMora = false, PorcentajeMora = 0});*/
+
+
+88	 /*Aspirantes resultado = null;
+
+            for(int i=0; i< aspirantes.Count; i++)
+            {
+                if (aspirantes[i].NoExpediente == noExpediente)
+                {
+                    resultado = aspirantes[i];
+                    break;
+                }
+            }
+98          return resultado;*/
